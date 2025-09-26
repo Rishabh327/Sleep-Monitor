@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Simple CSS vars for themes */
+:root {
+  color-scheme: light dark;
+}
+
+html.dark {
+  color-scheme: dark;
+}
+
+/* Subtle transitions */
+* { transition: color 0.2s ease, background-color 0.2s ease, border-color 0.2s ease; }
+
+
